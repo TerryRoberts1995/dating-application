@@ -1,0 +1,21 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    width: 100vw;
+}
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
