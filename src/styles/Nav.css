@@ -2,20 +2,27 @@
     display: flex;
     justify-content: space-between;
     background-color: grey;
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
 }
 .navbar-links {
     display: flex;
+    align-items: center;
 }
 
 .navbar-links > a {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding: 5px 25px;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.navbar-wrapper > .navbar-logo > h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 55px;
+    margin: 20px;
+}
+
+.username-text-wrapper {
+    margin-right: 15px;
 }
