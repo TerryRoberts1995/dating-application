@@ -6,16 +6,20 @@ export default function Home() {
     const mapThis = array => {
         return array.map(obj => {
             return (
-                <div className="card-wrapper">
+                <div key={obj.id} className="card-wrapper">
                     <div className="card-image">
                         {/* {obj.picture} Needs to be a image*/}
                     </div>
                     <div className="card-title">
-                        {obj.fullname}
+                        <h2>{`${obj.username}`}</h2>
+
                     </div>
 
-                    <div className="card-bio">
-                        {obj.bio}
+                    <div className="card-details">
+                        <h6>{`Name: ${obj.fullname}`}</h6>
+                        <h6>{`Age: ${obj.age}`}</h6>
+                        <h6 id="bio">Bio</h6>
+                        <p>{obj.bio}</p>
                     </div>
                 </div>
             )
@@ -23,7 +27,7 @@ export default function Home() {
     }
 
     return (
-        <div>
+        <div className="home-container">
             {mapThis(MockData)}
         </div>
     )

@@ -31,7 +31,7 @@
     },
     {
         "age": 22,
-        "bio": "humaniod",
+        "bio": "Get it done, or get out",
         "fullname": "tylerisaacson",
         "gender": "male",
         "id": 5,
@@ -41,7 +41,7 @@
     },
     {
         "age": 22,
-        "bio": "humaniod",
+        "bio": "This is a random sentence from the top",
         "fullname": "tylerisaacson",
         "gender": "male",
         "id": 6,
@@ -51,10 +51,50 @@
     },
     {
         "age": 22,
-        "bio": "humaniod",
+        "bio": "I am the coolest in the whole planet",
         "fullname": "tylerisaacson",
         "gender": "male",
         "id": 7,
+        "password": "passworwrwrw",
+        "picture": "google.com",
+        "username": "tylerwhuyer"
+    },
+    {
+        "age": 25,
+        "bio": "I am the coolest mother fucker in the whole planet",
+        "fullname": "Terry Roberts",
+        "gender": "male",
+        "id": 17,
+        "password": "different",
+        "picture": "google.com/badmotherfucker",
+        "username": "xToastedTerryx"
+    },
+    {
+        "age": 22,
+        "bio": "humaniod",
+        "fullname": "tylerisaacson",
+        "gender": "male",
+        "id": 12,
+        "password": "passworwrwrw",
+        "picture": "google.com",
+        "username": "tylerwhuyer"
+    },
+    {
+        "age": 22,
+        "bio": "humaniod",
+        "fullname": "tylerisaacson",
+        "gender": "male",
+        "id": 72,
+        "password": "passworwrwrw",
+        "picture": "google.com",
+        "username": "tylerwhuyer"
+    },
+    {
+        "age": 22,
+        "bio": "humaniod",
+        "fullname": "tylerisaacson",
+        "gender": "male",
+        "id": 190,
         "password": "passworwrwrw",
         "picture": "google.com",
         "username": "tylerwhuyer"

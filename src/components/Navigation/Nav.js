@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import '../../styles/Nav.css'
 
 export default function Nav() {
+    let loggedIn = true;
     return (
         <div className="navbar-wrapper">
             <div className="navbar-logo">
@@ -12,12 +13,12 @@ export default function Nav() {
             <div className="navbar-links">
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/about'>About</NavLink>
-                <NavLink to='/'>Sign In</NavLink>
+                <NavLink to='/sign-in'>Sign In</NavLink>
                 <NavLink to='/sign-up'>Sign Up</NavLink>
             </div>
 
             <div className="username-text-wrapper">
-                <h3>%Username%</h3>
+                <h3>{loggedIn ? "Terry Roberts" : null}</h3>
             </div>
         </div >
     )

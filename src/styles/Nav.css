@@ -16,6 +16,7 @@
 }
 
 .navbar-links>a {
+    font-family: 'Dosis', sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -38,6 +39,7 @@
 }
 
 .username-text-wrapper {
+    font-family: 'Dosis', sans-serif;
     display: flex;
     align-items: center;
     padding: 20px;
