@@ -1,62 +1,102 @@
 [
     {
-        "age": "gmaile.com",
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
-        "gender": "female",
-        "id": 2,
-        "password": "hi",
-        "picture": "gmaile.com",
-        "username": "saqagg"
-    },
-    {
-        "age": 22,
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
-        "gender": "male",
-        "id": 3,
-        "password": "passworwrwrw",
-        "picture": "google.com",
-        "username": "tylerwhuyer"
-    },
-    {
-        "age": 22,
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
-        "gender": "male",
-        "id": 4,
-        "password": "passworwrwrw",
-        "picture": "google.com",
-        "username": "tylerwhuyer"
-    },
-    {
-        "age": 22,
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
-        "gender": "male",
-        "id": 5,
-        "password": "passworwrwrw",
-        "picture": "google.com",
-        "username": "tylerwhuyer"
-    },
-    {
-        "age": 22,
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
+        "age": 32,
+        "bio": "programming teacher",
+        "fullname": "ryan curtis",
         "gender": "male",
         "id": 6,
-        "password": "passworwrwrw",
-        "picture": "google.com",
-        "username": "tylerwhuyer"
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?selfie+man",
+        "username": "semperrry"
+    },
+    {
+        "age": 25,
+        "bio": "programming student",
+        "fullname": "preston phillips",
+        "gender": "male",
+        "id": 7,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+woman",
+        "username": "terryr1995"
+    },
+    {
+        "age": 45,
+        "bio": "programming student2",
+        "fullname": "terry bytheway",
+        "gender": "male",
+        "id": 8,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+man",
+        "username": "tbytheway"
+    },
+    {
+        "age": 25,
+        "bio": "programming student3",
+        "fullname": "preston phillips",
+        "gender": "male",
+        "id": 9,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?selfie+woman",
+        "username": "prestonian"
     },
     {
         "age": 22,
-        "bio": "humaniod",
-        "fullname": "tylerisaacson",
+        "bio": "programming student4",
+        "fullname": "tyler isaacson",
         "gender": "male",
-        "id": 7,
-        "password": "passworwrwrw",
-        "picture": "google.com",
-        "username": "tylerwhuyer"
+        "id": 10,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+lady",
+        "username": "tylerwhyler"
+    },
+    {
+        "age": 20,
+        "bio": "the other chosen one",
+        "fullname": "harry potter",
+        "gender": "male",
+        "id": 11,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+guy",
+        "username": "dirtyharryp"
+    },
+    {
+        "age": 30,
+        "bio": "won olympic gold 50 times",
+        "fullname": "michael phelps",
+        "gender": "male",
+        "id": 12,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+man",
+        "username": "michaelflippers"
+    },
+    {
+        "age": 38,
+        "bio": "creator of devcamp and super cool",
+        "fullname": "jordan hudgens",
+        "gender": "male",
+        "id": 13,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?selfie+man",
+        "username": "yankeelover"
+    },
+    {
+        "age": 30,
+        "bio": "won olympic gold 50 times",
+        "fullname": "lucy turner",
+        "gender": "female",
+        "id": 14,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?profile+picture+girl",
+        "username": "loosygoosey"
+    },
+    {
+        "age": 65,
+        "bio": "aced a cognitive test",
+        "fullname": "donald trump",
+        "gender": "male",
+        "id": 15,
+        "password": "1234",
+        "picture": "https://source.unsplash.com/random/?selfie+man",
+        "username": "donnytrumpet"
     }
 ]
