@@ -5,17 +5,20 @@
     padding: 40px 0px;
     flex-wrap: wrap;
     text-align: center;
+    background-image: linear-gradient(to bottom right, #780202, black);
 }
 
-.card-title {
-    font-family: 'Dosis', sans-serif;
+.card-title h2 {
+    font-family: "Dosis", sans-serif;
+    margin: 0;
 }
 
-.card-image {
+.card-image img {
     width: 150px;
     height: 150px;
-    background-color: black;
     margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px black;
 }
 
 .card-wrapper {
@@ -23,22 +26,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    width: 300px;
+    width: 250px;
+    height: 100%;
     margin: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 15px #23272e;
+    color: black;
+    background-color: #fffafa;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px #0f0202;
 }
 
 .card-details {
     margin: 10px;
 }
 
-.card-details>#bio {
+.card-details > #bio {
     margin: 0px 10px;
 }
 
-.card-details>p {
+.card-details > p {
     margin: 5px 0px;
     border: 1px solid black;
     padding: 5px;
