@@ -1,0 +1,59 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #780202, black);
+}
+
+.main-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title h2 {
+    font-family: "Dosis", sans-serif;
+    margin: 0;
+}
+
+.card-image img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px black;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    margin: 10px;
+    color: black;
+    background-color: #fffafa;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px #0f0202;
+}
+
+.card-details {
+    margin: 10px;
+}
+
+.card-details > #bio {
+    margin: 0px 10px;
+}
+
+.card-details > p {
+    margin: 5px 0px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}

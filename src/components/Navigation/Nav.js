@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom'
 import Cookie from "js-cookie";
 import { navigate } from "hookrouter";
 import '../../styles/Nav.css'
-import tree from '../../images/tree.jpg'
 
 const username = Cookie.get("username");
 export default function Nav() {
@@ -14,16 +13,18 @@ export default function Nav() {
          navigate("/");
     };
 
+    let loggedIn = true;
+
     return (
         <div className="navbar-wrapper">
             <div className="navbar-logo">
-                <img src={tree} alt="logo" />
+                <h1>Entanglement</h1>
             </div>
 
             <div className="navbar-links">
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/about'>About</NavLink>
-                <NavLink to='/'>Sign In</NavLink>
+                <NavLink to='/sign-in'>Sign In</NavLink>
                 <NavLink to='/sign-up'>Sign Up</NavLink>
             </div>
  
@@ -33,7 +34,9 @@ export default function Nav() {
             </div>
 
 
-            {/* ADD USERNAME IN DIV */}
+            <div className="username-text-wrapper">
+                <h3>{loggedIn ? "Terry Roberts" : null}</h3>
+            </div>
         </div >
     )
-}
+} 
