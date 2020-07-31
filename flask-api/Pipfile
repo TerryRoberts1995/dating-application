@@ -11,6 +11,10 @@ flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 flask-cors = "*"
 marshmallow-sqlalchemy = "*"
+flask-heroku = "*"
+environs = "*"
+gunicorn = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"

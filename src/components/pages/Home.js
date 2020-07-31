@@ -1,30 +1,27 @@
-import React from 'react'
-import MockData from '../../MockData.json'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import Card from './HomeCard'
+// import MockData from '../../MockData.json'
 import '../../styles/Home.css'
 
 export default function Home() {
-    const mapThis = array => {
-        return array.map(obj => {
-            return (
-                <div className="card-wrapper">
-                    <div className="card-image">
-                        {/* {obj.picture} Needs to be a image*/}
-                    </div>
-                    <div className="card-title">
-                        {obj.fullname}
-                    </div>
+    const [user, setUserInfo] = useState([]);
 
-                    <div className="card-bio">
-                        {obj.bio}
-                    </div>
-                </div>
-            )
-        })
+    const getCardInfo = () => {
+        axios.get("https://dating-application-heroku.herokuapp.com/profiles")
+            .then(res => setUserInfo(res.data))
+            .catch(error => console.log(error))
     }
 
+
+    useEffect(() => {
+        getCardInfo()
+    }, [])
+
     return (
-        <div>
-            {mapThis(MockData)}
+        <div className="home-container">
+
+            <Card className="hello" cardInfo={user} />
         </div>
     )
 }
