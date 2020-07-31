@@ -1,0 +1,20 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.create-profile-form {
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   gap: 5px;
+   /* height: 125%; */
+}
+
+.create-profile-form > button {
+    margin-top: 15px;
+}
+
+.create-profile-form > input {
+
+}
