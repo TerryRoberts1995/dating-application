@@ -3,15 +3,18 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from flask_cors import CORS
 from flask_heroku import Heroku
+from environs import Env
 
 import os
 
 app = Flask(__name__)
 CORS(app)
 heroku = Heroku(app)
+env = Env()
+env.read_env()
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-app.config["SQLALCHEMY_DATABASE_URI"] = 'postgres://hygsdjpctemdkc:096069411fe5de877fb0d6ac566a8b1d1951e50ffc59becea52747583b2a24b7@ec2-50-19-26-235.compute-1.amazonaws.com:5432/dedleskp5oo9q1'
+app.config["SQLALCHEMY_DATABASE_URI"] = env("DATABASE_URL")
 # app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///' + os.path.join(basedir, 'app.sqlite')
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
